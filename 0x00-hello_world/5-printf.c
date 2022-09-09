@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 /**
- * main: use the function printf
- *
- * Description: this program print out with proper grammar, but the out
- * return: 0
+ * Description: main - prints out a string to stdout.
+ * Return: 0 if success.
  */
 int main(void)
 {
