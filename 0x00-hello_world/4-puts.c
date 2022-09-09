@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main(void)-  print the strng in the put function
+ * main: print the strng in the put function
  *
  * Description: using the main function
  * this program prints "programmjng is like building a multilingual puzz
