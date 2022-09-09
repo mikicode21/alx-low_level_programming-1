@@ -1,14 +1,10 @@
 #include <stdio.h>
 
 /**
- * Description: main - prints the strng in the put function
+ * main - entry point
  *
- * Description: using the main function
- * this program prints "programmjng is like building a multilingual puzz
- * return: 0 if success.
+ * Return: Always 0 (success)
  */
-
-
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
