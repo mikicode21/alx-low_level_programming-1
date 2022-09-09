@@ -1,9 +1,14 @@
 #include <stdio.h>
 
-/*printf*/
+/**
+ * main: use the function printf
+ *
+ * Description: this program print out with proper grammar, but the outcome is a piece of art
+ * return: 0
+ */
 
-int main(void);
+int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	printf("\"with proper grammar, but the outcome is a piece of art");
 	return(0);
 }
