@@ -2,8 +2,8 @@
  /**
   * main - Prints numbers from 0-9 with comma and space between them
   *
-  * Description: Numbers must be separated by ,, followed by a space
-  * Numbers should be printed in ascending order
+  * Description: using the main function
+  * this program prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
   * Return: 0 always
   */
 
