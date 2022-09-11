@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int num;
+	long num;
 
 	for (num = 0; num < 0; num++)
 	{
