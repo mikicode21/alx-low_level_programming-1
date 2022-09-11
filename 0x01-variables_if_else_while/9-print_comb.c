@@ -1,6 +1,6 @@
 #include <stdio.h>
  /**
-  * function main - Prints all possible combinations of single-digit num
+  * main - Prints numbers from 0-9 with comma and space between them
   *
   * Description: Numbers must be separated by ,, followed by a space
   * Numbers should be printed in ascending order
