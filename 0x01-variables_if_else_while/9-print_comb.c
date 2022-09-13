@@ -1,9 +1,7 @@
 #include <stdio.h>
  /**
-  * main - Prints numbers from 0-9 with comma and space between them
+  * main - Prints all possible combinations of single-digit numbers.
   *
-  * Description: using the main function
-  * this program prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
   * Return: 0 always
   */
 
