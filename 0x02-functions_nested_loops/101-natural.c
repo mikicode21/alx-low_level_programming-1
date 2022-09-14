@@ -7,7 +7,7 @@
  * Rwturn: Always 0.
  */
 
-main(void)
+int main (void)
 {
 	int i, sum = 0;
 
