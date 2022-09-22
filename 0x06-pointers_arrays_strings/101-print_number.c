@@ -1,5 +1,5 @@
 #include "main.h"
-#include "unistd.h"
+
 /**
  * print_number - prints number
  * @n:integer to convert to character
