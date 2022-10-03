@@ -6,6 +6,8 @@
  * _strdup -  returns a pointer to a newly allocated space in memory, which
  * contains a copy of the string given as a parameter
  *
+ * @str: the string to be copied
+ *
  * Return: a pointer to the array or NULL if the process fails
  */
 char *_strdup(char *str)
