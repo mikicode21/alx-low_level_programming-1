@@ -53,3 +53,4 @@ b = _atoi(argv[2]);
 mul = a *b;
 printf("%lu\n", mul);
 return (0);
+}
