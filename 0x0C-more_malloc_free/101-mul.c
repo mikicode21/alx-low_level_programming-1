@@ -101,4 +101,4 @@ mul = a *b;
 printf("%lu\n", mul);
 
 return (0);
-
+}
