@@ -13,7 +13,8 @@ void print_all(const char * const format, ...)
 	char form;
 	char *str;
 
-	va_start(ar, format);while (format != NULL && format[i])
+	va_start(ar, format);
+	while (format != NULL && format[i])
 	{
 		form = format[i];
 		switch (form)
