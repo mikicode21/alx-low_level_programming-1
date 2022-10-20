@@ -1,12 +1,14 @@
-#include "lists.h"
+#include <stdio.h>
+
+void _construct(void) __attribute__((constructor));
 
 /**
- * print_first - prints a string before main
- * Return: nothing
+ * _construct - constructor function
  */
-__attribute__((constructor))
-	void print_first(void)
+void _construct(void)
 {
-	printf("You're beat! and yet, you must allow,\n");
-	printf("I bore my house upon my back!\n");
+	char line1[] = "You're beat! and yet, you must allow,";
+	char line2[] = "I bore my house upon my back!";
+
+	printf("%s\n%s\n", line1, line2);
 }
