@@ -8,6 +8,7 @@ const listint_t *isCycleList(const listint_t *head)
 {
 	const listint_t *fast = head;
 	const listint_t *slow = head;
+
 	while (fast && fast->next)
 	{
 		fast = fast->next->next;
@@ -35,6 +36,7 @@ size_t print_listint_safe(const listint_t *head)
 	const listint_t *breakPoint = isCycleList(head);
 	int ommit = 0;
 	int count = 0;
+
 	while (head && ommit != 2)
 	{
 		printf("[%p] %d\n", (void *) head, head->n);
