@@ -24,7 +24,7 @@ int _pow(int x, int y)
 /**
  * binary_to_uint - converts a binary number to an unsigned int
  * @b: string containing the binary number
- * Return: Return the converted number, or 0 if the string has a char other than
+ * Return: Return the converted number, or 0 if the string has
  * 0 or 1 or if @b is NULL
  */
 unsigned int binary_to_uint(const char *b)
